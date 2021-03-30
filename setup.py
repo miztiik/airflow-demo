@@ -9,7 +9,7 @@ setuptools.setup(
     name="airflow_demo",
     version="0.0.1",
 
-    description="An empty CDK Python app",
+    description="AWS Airflow Demo",
     long_description=long_description,
     long_description_content_type="text/markdown",
 
@@ -19,7 +19,7 @@ setuptools.setup(
     packages=setuptools.find_packages(where="airflow_demo"),
 
     install_requires=[
-        "aws-cdk.core==1.80.0",
+        "aws-cdk.core==1.83.0",
     ],
 
     python_requires=">=3.6",
