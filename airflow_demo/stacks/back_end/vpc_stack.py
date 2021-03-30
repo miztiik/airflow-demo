@@ -23,7 +23,7 @@ class VpcStack(cdk.Stack):
         else:
             self.vpc = _ec2.Vpc(
                 self,
-                "miztiikRedshiftDemoVpc",
+                "miztiikAirflowDemoVpc",
                 cidr="10.10.0.0/16",
                 max_azs=2,
                 nat_gateways=1,
